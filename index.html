@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.81.0" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>My New Hugo Site</title>
+	
+	
+	<link type="text/css" href="https://assets.transunion.com/resources/css/tu-main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://assets.transunion.com/resources/css/lib/slick.css">
+	<link rel="stylesheet" href="/cibil-dashboard/css/style.css">
+	<link rel="alternate" type="application/rss+xml" href="/cibil-dashboard/index.xml" title="My New Hugo Site">
+</head>
+<body>
+	
+	
+
+<div class="main-dashboard">
+    <div class="dashboard-outer">
+        <div class="dashboard">
+            <div class="container">
+                <div class="dashboard-page">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="animated-chart-1 position-relative">
+                                <div class="f-24-title">
+                                    Hello Rahul
+                                </div>
+                                <div class="f-16-title">
+                                    Your CIBIL Score as of 31 March 2021 is
+                                </div>
+
+                                <div id="preview">
+                                    <canvas width="380" height="150" id="canvas-preview" class="canvas-preview"></canvas>
+                                    <div class="start-to-end">
+                                        <span>300</span>
+                                        <span>900</span>
+                                    </div>
+                                    <div id="preview-textfield" style="font-size: 41px;">702</div>
+                                    <div class="semicircle-center"></div>
+                                    <a href="#" class="cibil-link"><span>CIBIL</span> Score</a>
+
+                                </div>
+
+
+                                <div class="d-flex align-items-center justify-content-between w-100 p-20 p-md-30 py-md-20 mt-30" style="box-shadow: 0px 0px 30px rgba(1, 83, 101, 0.2);">
+                                    <a href="#" class=" para-intro-bold-2c fw-700">Score Analysis</a>
+                                    <a href="" class="button-outline para-intro-bold-2c fw-700 mb-0 " style="padding: 9px 32px;text-decoration: none; color: #2c2c2c;">Refresh Now</a>
+                                </div>
+
+                                <img src="img/greyquestionmark.svg" alt="" class="greyquestionmark">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="multiple-items  multiple-items-slider">
+                                <div>
+                                    <div class="slider-item">
+                                        <img src="img/yellow-monitor.svg" alt="">
+                                        <h6>
+                                            See what the bank sees
+                                        </h6>
+                                        <p>
+                                            Keep an eye on your latest CIBIL Score to always be credit-ready.
+                                        </p>
+                                        <a href="https://ajency.github.io/CIBIL-CRO/cibil-dashboard/upgrade.html">VIEW PLANS ></a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="slider-item">
+                                        <img src="img/yellow-monitor.svg" alt="">
+                                        <h6>
+                                            See what the bank sees
+                                        </h6>
+                                        <p>
+                                            Keep an eye on your latest CIBIL Score to always be credit-ready.
+                                        </p>
+                                        <a href="https://ajency.github.io/CIBIL-CRO/cibil-dashboard/upgrade.html">VIEW PLANS ></a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="slider-item">
+                                        <img src="img/yellow-monitor.svg" alt="">
+                                        <h6>
+                                            See what the bank sees
+                                        </h6>
+                                        <p>
+                                            Keep an eye on your latest CIBIL Score to always be credit-ready.
+                                        </p>
+                                        <a href="https://ajency.github.io/CIBIL-CRO/cibil-dashboard/upgrade.html">VIEW PLANS ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="for-overlay">
+
+                                <div class="w-100 border-1 mt-3 rounded-border-1 overflow-hidden card-inner">
+                                    <div class="card-head bg-white py-25 px-20 px-md-30 border-bottom-1 pb-2">
+                                        <div class="text-blue text-uppercase mb-10">
+                                            Score Simulator
+                                        </div>
+                                        <p class="para-intro-book-70 pb-0 mb-0 font-16">
+                                            Look into your credit future. Find out in advance how your credit actions affect your score.
+                                        </p>
+                                    </div>
+                                    <div class="card-body px-20 px-md-30 bg-white">
+                                        <p class="para-intro-regular mt-md-19 f-md-24 max-width-350 mx-auto fw-400">
+                                            What will happen to my CIBIL Score if I take on a new loan or a credit card?
+                                        </p>
+                                        <div class="d-flex align-items-center guage-2 justify-content-center">
+                                            <div class="filled-guage">
+                                                <canvas id="canvas-preview1" class="canvas-preview"></canvas>
+                                                <div class="start-to-end">
+                                                    <span>300</span>
+                                                    <span>900</span>
+                                                </div>
+                                                <div id="preview-textfield">702</div>
+                                                <div class="semicircle-center"></div>
+                                                <a href="#" class="cibil-link"><span>CIBIL</span> Score</a>
+
+                                            </div>
+                                            <div class="blank-guage">
+                                                <img src="img/blank.svg" alt="">
+                                                <div class="start-to-end">
+                                                    <span>300</span>
+                                                    <span>900</span>
+                                                </div>
+                                                <div id="preview-textfield">?</div>
+                                                <div class="semicircle-center"></div>
+                                                <a href="#" class="cibil-link"><span>CIBIL</span> Score</a>
+                                            </div>
+                                        </div>
+                                        <hr class="mt-md-30">
+                                        <a href="" class="button-icon mx-auto mt-2 mb-1 get-my-score">
+                                            <img src="img/lock.svg" alt="">
+                                            <span>Get My Score</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="overlay-card d-none " style="background-image: url(../img/overlaybg1.png);">
+                                    <img src="img/closeovelay.svg" class="closeovelay" alt="">
+                                    <h6>
+                                        Make the right decisions by predicting the right outcomes. Get a CIBIL subscription to use the Score Simulator.
+                                    </h6>
+                                    <p>Plans starting from as low as ₹100/month.</p>
+                                    <a href="" class="button-icon mt-2 mb-1">
+                                        <span>Upgrade Now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pl-md-40">
+                            <div class="for-overlay">
+
+                                <div class="w-100 border-1 mt-3 rounded-border-1 overflow-hidden card-inner">
+                                    <div class="card-head bg-white py-25 px-20 px-md-30 border-bottom-1 pb-2">
+                                        <div class="text-blue text-uppercase mb-10">
+                                            CIBIL Alerts
+                                        </div>
+                                        <p class="para-intro-book-70 pb-0 mb-0">
+                                            There may be changes in your credit profile that need <br> your attention.
+                                        </p>
+                                    </div>
+                                    <div class="card-body px-20 px-md-30 bg-white" style="padding-top: 42px;">
+                                        <div class="alerts mb-2">
+                                            <span class="date"> Fri, 02:46 PM</span>
+
+                                            <div class="cibilalert">
+                                                New Account**
+                                            </div>
+                                        </div>
+                                        <div class="alerts mb-2">
+                                            <span class="date"> 21/06/2021, 11:23 PM</span>
+
+                                            <div class="cibilalert">
+                                                Enquiry**
+                                            </div>
+                                        </div>
+                                        <div class="alerts mb-2">
+                                            <span class="date"> 16/04/2021,  12:56 AM</span>
+
+                                            <div class="cibilalert">
+                                                Change In Score**
+                                            </div>
+                                        </div>
+                                        <div class="alerts">
+                                            <span class="date"> 12/04/2021,  05:45 PM</span>
+
+                                            <div class="cibilalert">
+                                                Change In Score**
+                                            </div>
+                                        </div>
+                                        <hr style="margin-top: 21px;">
+                                        <a href="" class="button-icon mx-auto mt-2 mb-1 get-my-score">
+                                            <img src="img/lock.svg" alt="">
+                                            <span>View My Alerts</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="overlay-card d-none" style="background-image: url(../img/overlaybg2.png);background-size: 195px 265px;">
+                                    <img src="img/closeovelay.svg" class="closeovelay" alt="">
+                                    <h6>
+                                        Make the right decisions by predicting the right outcomes. Get a CIBIL subscription to use the Score Simulator.
+                                    </h6>
+                                    <p>Plans starting from as low as ₹100/month.</p>
+                                    <a href="" class="button-icon mt-2 mb-1">
+                                        <span>Upgrade Now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-grid ">
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="w-100 border-1 mt-3 bg-white rounded-border-1 overflow-hidden">
+                                    <div class="card-head bg-white px-20 px-md-30 border-bottom-1 pt-3 pb-2">
+                                        <div class="text-blue text-uppercase mb-05">
+                                            Unlock MORE features with a CIBIL subscription
+                                        </div>
+                                        <p class="para-intro-book-70 pb-0 mb-0">
+                                            Get everything you need to maintain or boost your CIBIL Score, all in one place.
+                                        </p>
+                                    </div>
+                                    <div class="card-body px-20 px-md-30">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="icon-column-box">
+                                                    <img src="img/stand.svg" alt="">
+                                                    <div>
+                                                        <p>
+                                                            <bold class="fw-600">
+                                                                Know Where you Stand
+
+                                                            </bold>
+                                                        </p>
+                                                        <p class="light">
+                                                            See how you perform compared to other CIBIL members.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="icon-column-box">
+                                                    <img src="img/stand3.svg" alt="">
+                                                    <div>
+                                                        <p>
+                                                            <bold class="fw-600">
+                                                                CIBIL Report
+
+                                                            </bold>
+                                                        </p>
+                                                        <p class="light">
+                                                            Bite-sized summary of your <br> credit profile.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="icon-column-box">
+                                                    <img src="img/stand2.svg" alt="">
+                                                    <div>
+                                                        <p>
+                                                            <bold class="fw-600">
+                                                                Score History
+
+                                                            </bold>
+                                                        </p>
+                                                        <p class="light">
+                                                            See how your CIBIL Score has performed over time.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="" class="button-icon mx-auto mt-2 mb-1">
+                                            <span>Unlock All Features</span>
+                                        </a>
+                                        <p class="text-light text-center mt-2">Starting at ₹100 Per Month* </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-adds bg-white mt-3 rounded-border-1" style="color: #DDDDDD;">
+                        BANNER ADS
+                    </div>
+                    <div class="section-grid column-slider">
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="w-100 border-1 mt-3 bg-white rounded-border-1 overflow-hidden">
+                                    <div class="card-head bg-white px-20 px-md-30 border-bottom-1 pt-3 pb-2">
+                                        <div class="text-blue text-uppercase mb-05">
+                                            REPAYMENT OFFERS
+                                        </div>
+                                        <p class="para-intro-book-70 pb-0 mb-0">
+                                            This negative status factor into your credit score. Settling this debt, could resolve this status
+                                        </p>
+                                    </div>
+                                    <div class="card-body px-20 px-md-30">
+
+                                        <div class="multiple-items-2">
+                                            <div class="icon-column-box bg-white border-1">
+
+                                                <div>
+                                                    <p class="mb-0">
+                                                        <bold class="fw-600">
+                                                            Lender
+                                                        </bold>
+                                                    </p>
+                                                    <p class="light">
+                                                        Citi Bank
+                                                    </p>
+                                                    <p class="mb-0 mt-20">
+                                                        <bold class="fw-600">
+                                                            Account Number
+                                                        </bold>
+                                                    </p>
+                                                    <p class="light mb-20">
+                                                        6381328487839
+                                                    </p>
+                                                    <p class="mb-0">
+                                                        <bold class="fw-600">
+                                                            Status
+                                                        </bold>
+                                                    </p>
+                                                    <p class=" light text-red mb-2 fw-600">
+                                                        Amount Overdue / DPD / Settled / Written off
+                                                    </p>
+                                                    <a href="#" class="text-uppercase text-black-2c text-intro-bold">Know more</a>
+                                                </div>
+                                            </div>
+                                            <div class="icon-column-box bg-white border-1">
+
+                                                <div>
+                                                    <p class="mb-0">
+                                                        <bold class="fw-600">
+                                                            Lender
+                                                        </bold>
+                                                    </p>
+                                                    <p class="light">
+                                                        Citi Bank
+                                                    </p>
+                                                    <p class="mb-0 mt-20">
+                                                        <bold class="fw-600">
+                                                            Account Number
+                                                        </bold>
+                                                    </p>
+                                                    <p class="light mb-20">
+                                                        517371996912
+                                                    </p>
+                                                    <p class="mb-0">
+                                                        <bold class="fw-600">
+                                                            Status
+                                                        </bold>
+                                                    </p>
+                                                    <p class=" light text-red mb-2 fw-600">
+                                                        Settled / Written off
+                                                    </p>
+                                                    <a href="#" class="text-uppercase text-black-2c text-intro-bold">Know more</a>
+                                                </div>
+                                            </div>
+                                            <div class="icon-column-box bg-white border-1">
+
+                                                <div>
+                                                    <p class="mb-0">
+                                                        <bold class="fw-600">
+                                                            Lender
+                                                        </bold>
+                                                    </p>
+                                                    <p class="light">
+                                                        Citi Bank
+                                                    </p>
+                                                    <p class="mb-0 mt-20">
+                                                        <bold class="fw-600">
+                                                            Account Number
+                                                        </bold>
+                                                    </p>
+                                                    <p class="light mb-20">
+                                                        781727187281
+                                                    </p>
+                                                    <p class="mb-0">
+                                                        <bold class="fw-600">
+                                                            Status
+                                                        </bold>
+                                                    </p>
+                                                    <p class=" light text-red mb-2 fw-600">
+                                                        Amount Overdue / DPD / Settled / Written off
+                                                    </p>
+                                                    <a href="#" class="text-uppercase text-black-2c text-intro-bold">Know more</a>
+                                                </div>
+                                            </div>
+                                            <div class="icon-column-box bg-white border-1">
+
+                                                <div>
+                                                    <p class="mb-0">
+                                                        <bold class="fw-600">
+                                                            Lender
+                                                        </bold>
+                                                    </p>
+                                                    <p class="light">
+                                                        Citi Bank
+                                                    </p>
+                                                    <p class="mb-0 mt-20">
+                                                        <bold class="fw-600">
+                                                            Account Number
+                                                        </bold>
+                                                    </p>
+                                                    <p class="light mb-20">
+                                                        781727187281
+                                                    </p>
+                                                    <p class="mb-0">
+                                                        <bold class="fw-600">
+                                                            Status
+                                                        </bold>
+                                                    </p>
+                                                    <p class=" light text-red mb-2 fw-600">
+                                                        Amount Overdue / DPD / Settled / Written off
+                                                    </p>
+                                                    <a href="#" class="text-uppercase text-black-2c text-intro-bold">Know more</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-grid">
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="w-100 border-1 mt-3 bg-white rounded-border-1 overflow-hidden">
+                                    <div class="card-head bg-white px-20 px-md-30 border-bottom-1 pt-3 pb-2">
+                                        <div class="text-blue text-uppercase mb-05">
+                                            Personalised offers
+                                        </div>
+                                        <p class="para-intro-regular-2c" style="color: #5E5E5E;">
+
+                                            We bring you the best offers based on your latest CIBIL score.
+
+                                        </p>
+                                    </div>
+                                    <div class="card-body px-20 px-md-30">
+                                        <p class="para-intro-regular-2c  mb-20 p-20 fw-700 " style="border: 1px solid #ACACAC;border-radius: 6px;color: #2C2C2C;">
+                                            <img src="img/exclamation-mark-grey.svg" alt="" style="margin-right: 20px;"> We found <span class="bg-yellow text-bold">24 offers</span> for you in the following categories
+                                        </p>
+
+                                        <div class=" d-md-flex show-col-6-flex px-0">
+                                            <div class="icon-column-box bg-white rounded-border border-top-1 position-relative rounded-border-1 mr-md-15 p-1 height-auto flex-1">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <img src="img/icon1.svg" alt="" class="mb-2 mt-1">
+                                                    <div class="yellow-count-numb">
+                                                        12
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex flex-column text">
+                                                    <p class="light mb-0">
+                                                        Credit
+                                                    </p>
+
+                                                    <p class="light mb-0">
+                                                        Cards
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="icon-column-box bg-white rounded-border border-top-1 position-relative rounded-border-1 mr-md-15 p-1 height-auto flex-1">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <img src="img/icon2.svg" alt="" class="mb-2" style="margin-top: 4px;">
+                                                    <div class="yellow-count-numb">
+                                                        4
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex flex-column text">
+                                                    <p class="light mb-0">
+                                                        Personal
+                                                    </p>
+
+                                                    <p class="light mb-0">
+                                                        Loan
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="icon-column-box bg-white rounded-border border-top-1 position-relative rounded-border-1 mr-md-15 p-1 height-auto flex-1">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <img src="img/icon6.svg" alt="" class="mb-2" style="margin-top: 4px;">
+                                                    <div class="yellow-count-numb">
+                                                        2
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex flex-column text">
+                                                    <p class="light mb-0">
+                                                        Business
+                                                    </p>
+
+                                                    <p class="light mb-0">
+                                                        Loan
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-column-box bg-white rounded-border border-top-1 position-relative rounded-border-1 mr-md-15 p-1 height-auto flex-1">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <img src="img/icon3.svg" alt="" class="mb-2" style="margin-top: 13px;">
+                                                    <div class="yellow-count-numb disabled">
+                                                        0
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex flex-column text">
+                                                    <p class="light mb-0">
+                                                        Auto
+                                                    </p>
+
+                                                    <p class="light mb-0">
+                                                        Loan
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="icon-column-box bg-white rounded-border border-top-1 position-relative rounded-border-1 mr-md-15 p-1 height-auto flex-1">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <img src="img/icon7.svg" alt="" class="mb-2" style="margin-top: 5px;">
+                                                    <div class="yellow-count-numb">
+                                                        1
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex flex-column text">
+                                                    <p class="light mb-0">
+                                                        Financial
+                                                    </p>
+
+                                                    <p class="light mb-0">
+                                                        Products
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="icon-column-box bg-white rounded-border border-top-1 position-relative rounded-border-1 mr-md-15 p-1 height-auto flex-1">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <img src="img/icon4.svg" alt="" class="mb-2" style="margin-top: 7px;">
+                                                    <div class="yellow-count-numb">
+                                                        1
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex flex-column text">
+                                                    <p class="light mb-0">
+                                                        Loan <br class="d-md-none"> Against
+                                                    </p>
+
+                                                    <p class="light mb-0">
+                                                        Property
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-column-box bg-white rounded-border border-top-1 position-relative rounded-border-1 p-1 height-auto flex-1">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <img src="img/icon5.svg" alt="" class="mb-2" style="margin-top: 8px;">
+                                                    <div class="yellow-count-numb">
+                                                        4
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex flex-column text">
+                                                    <p class="light mb-0">
+                                                        Home
+                                                    </p>
+
+                                                    <p class="light mb-0">
+                                                        Loan
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="https://ajency.github.io/CIBIL-CRO/cibil-dashboard/offers.html" class="button-icon mx-auto mt-2 mt-md-50 mb-1">
+                                            <span>Visit Offers Page</span>
+                                        </a>
+                                    </div>
+
+
+                                </div>
+                                <p class="para-intro-book-70 text-center mt-3 mb-0">
+                                    *Terms & Conditions apply
+                                </p>
+                                <p class="para-intro-book-70 text-center mt-0 mb-md-20">
+                                    **Data shown here is for visual for representation purposes only. Your actual data and score would be subject to your profile information.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+	
+<script src="https://assets.transunion.com/resources/js/lib/min/jquery.min.js"></script>
+<script src="https://assets.transunion.com/resources/js/lib/min/slick.min.js"></script>
+
+<script src="/cibil-dashboard/js/custom.js"></script>
+<script src="/cibil-dashboard/js/gauge.js"></script>
+
+
+</body>
+</html>
